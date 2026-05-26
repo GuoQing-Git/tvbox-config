@@ -1,0 +1,203 @@
+{
+  "spider": "",
+  "sites": [
+    {
+      "key": "cjzy",
+      "name": "采集资源",
+      "type": 3,
+      "api": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "url": "https://cj.lziapi.com/api.php/provide/vod",
+        "type": "api"
+      }
+    },
+    {
+      "key": "bfzy",
+      "name": "暴风资源",
+      "type": 3,
+      "api": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "url": "https://bfzyapi.com/api.php/provide/vod",
+        "type": "api"
+      }
+    },
+    {
+      "key": "lzzy",
+      "name": "量子资源",
+      "type": 3,
+      "api": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "url": "https://cj.lziapi.com/api.php/provide/vod",
+        "type": "api"
+      }
+    },
+    {
+      "key": "kuaikan",
+      "name": "快看资源",
+      "type": 3,
+      "api": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "url": "https://kuaikan-api.com/api.php/provide/vod",
+        "type": "api"
+      }
+    },
+    {
+      "key": "sdzyapi",
+      "name": "闪电资源",
+      "type": 3,
+      "api": "",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": {
+        "url": "https://sdzyapi.com/api.php/provide/vod",
+        "type": "api"
+      }
+    },
+    {
+      "key": "api",
+      "name": "光速资源",
+      "type": 3,
+      "api": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "url": "https://api.guangsuapi.com/api.php/provide/vod",
+        "type": "api"
+      }
+    },
+    {
+      "key": "ckzy",
+      "name": "超快资源",
+      "type": 3,
+      "api": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "url": "https://ckzy.me/api.php/provide/vod",
+        "type": "api"
+      }
+    },
+    {
+      "key": "jszyapi",
+      "name": "极速资源",
+      "type": 3,
+      "api": "",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": {
+        "url": "https://jszyapi.com/api.php/provide/vod",
+        "type": "api"
+      }
+    },
+    {
+      "key": "www",
+      "name": "红牛资源",
+      "type": 3,
+      "api": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "url": "https://www.hongniuzy2.com/api.php/provide/vod",
+        "type": "api"
+      }
+    },
+    {
+      "key": "360",
+      "name": "360资源",
+      "type": 3,
+      "api": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "url": "https://360zy.com/api.php/provide/vod",
+        "type": "api"
+      }
+    },
+    {
+      "key": "cj",
+      "name": "非凡资源",
+      "type": 3,
+      "api": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "url": "https://cj.ffzyapi.com/api.php/provide/vod",
+        "type": "api"
+      }
+    }
+  ],
+  "lives": [
+    {
+      "name": "央视频道",
+      "playerType": 1,
+      "type": 0,
+      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u"
+    },
+    {
+      "name": "地方频道",
+      "playerType": 1,
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u"
+    }
+  ],
+  "parses": [
+    {
+      "name": "聚合解析",
+      "type": 3,
+      "url": "https://jmapi.jiexi.99danji.com/api/jiexi/"
+    },
+    {
+      "name": "夜幕解析",
+      "type": 3,
+      "url": "https://www.yemu.xyz/?url="
+    },
+    {
+      "name": "虾米解析",
+      "type": 3,
+      "url": "https://jx.xmflv.com/?url="
+    },
+    {
+      "name": "CK解析",
+      "type": 3,
+      "url": "https://www.ckplayer.vip/jiexi/?url="
+    }
+  ],
+  "flags": [
+    "youku",
+    "qq",
+    "iqiyi",
+    "qiyi",
+    "letv",
+    "sohu",
+    "tudou",
+    "pptv",
+    "mgtv",
+    "wasu",
+    "bilibili",
+    "migu"
+  ],
+  "ads": [
+    "wan.51img1.com",
+    "vip.la",
+    "hdimg.cc"
+  ]
+}
